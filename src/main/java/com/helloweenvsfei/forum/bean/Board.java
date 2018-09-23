@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Entity
 @Table
 @org.hibernate.annotations.Entity
+
 public class Board extends BaseBean {
 
 	@ManyToOne
